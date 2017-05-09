@@ -1,13 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:XamarinFormsNavigation"
-             x:Class="XamarinFormsNavigation.MainPage"
-             Title="Xamarin Forms Navigation Sample">
-
-	<Button Text="Navigate to Page1" 
+             x:Class="XamarinFormsNavigation.View.Page4"
+             Title="Xamarin Forms MVVM Page">
+    <Button Text="Navigate to Home" 
            VerticalOptions="Center" 
            HorizontalOptions="Center"
-            x:Name="NavigationButton"/>
-
+            Command="{Binding NavigatetoHome}"/>
 </ContentPage>
