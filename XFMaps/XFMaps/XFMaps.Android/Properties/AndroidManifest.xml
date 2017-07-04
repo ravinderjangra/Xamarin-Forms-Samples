@@ -9,6 +9,6 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <application android:label="XFMaps.Android">
     <meta-data android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyDWw5hgIEpKGwYeBS28bWSYmo3YWgi-7Mc" />
+            android:value="changewithyoutownkey" />
   </application>
 </manifest>
