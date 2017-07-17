@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CustomEntry_RoundCorner"
+             x:Class="CustomEntry_RoundCorner.MainPage"
+             xmlns:controls="clr-namespace:CustomEntry_RoundCorner.CustomControls;assembly=CustomEntry_RoundCorner"
+             Title="Custom Renderers"
+             BackgroundColor="Gray">
+    <StackLayout  VerticalOptions="Center" Padding="30">
+        <Label Text="Round Entry" TextColor="White"/>
+        <controls:RoundEntry TextColor="Black" PlaceholderColor="Black" Placeholder="Enter Here"/>
+    </StackLayout>
+
+
+</ContentPage>
